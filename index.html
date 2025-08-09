@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix clone surya
-    </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone Surya</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div>
-        <div class="main">
-            <nav>
-                <span><img width="100" src="Assets/Images/Logo.svg" alt=""></span>
-                <div>
-                    <button>English</button>
-                    <button> Sign In</button>
-                </div>
-            </nav>
-            <div class="box">
-            </div>
-            <div class="intro">
-                <span> Unlimited movies, TV</span>
-                <span> shows and more</span>
-                <span> Starts at ₹149. Cancel at any time.</span>
-                <span> Ready to watch? Enter your email to create or restart your membership.</span>
-            </div>
-            <div><input type="text" placeholder="Email Address"></div>
+      <div class="main">
+        <div class="box"></div>
+
+        <nav>
+          <span
+            ><img width="100" src="Assets/Images/Logo.svg" alt="Netflix Logo"
+          /></span>
+          <div class="eng">
+            <select class="language">
+              <option value="english">文 English</option>
+              <option value="hindi">Hindi</option>
+              <option value="spanish">Spanish</option>
+              <option value="french">French</option>
+            </select>
+            <button class="btn btn-red">Sign In</button>
+          </div>
+        </nav>
+
+        <div class="intro">
+          <span>Unlimited movies, TV</span>
+          <span>shows and more</span>
+          <span>Starts at ₹149. Cancel at any time.</span>
+          <span
+            >Ready to watch? Enter your email to create or restart your
+            membership.</span
+          >
+          <div class="sign">
+            <span id="signin">
+              <input
+                type="text"
+                placeholder="Email Address"
+                style="color: white"
+              />
+              <button class="btn btn-red-sm">Get Started ></button>
+            </span>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
